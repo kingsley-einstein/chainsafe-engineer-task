@@ -43,7 +43,7 @@ yargs
   )
   .describe("b", "Address to filter events")
   .alias("by", "b")
-  .describe("s", "Secret key of file owner")
+  .describe("s", "Private key to sign transaction")
   .alias("secretKey", "s")
   .describe("p", "The directory that houses the file")
   .alias("path", "p")

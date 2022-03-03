@@ -42,9 +42,7 @@ export const pinAndStore = async (
 
   const tx = Transaction.fromTxData(
     {
-      gasPrice: `0x${parseInt(
-        (0.000000001500000007 * 10 ** 9).toString()
-      ).toString(16)}`,
+      gasPrice: `0x${parseInt((1 * 10 ** 9).toString()).toString(16)}`,
       gasLimit: `0x${(100000).toString(16)}`,
       to: constants.ADDRESS,
       value: "0x0",

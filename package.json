@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "registry-cli": "lib/cli/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write **/**/*.{ts,js,json}"
+    "format": "prettier --write **/**/*.{ts,js,json}",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
